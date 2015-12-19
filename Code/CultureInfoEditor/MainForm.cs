@@ -1,10 +1,12 @@
-﻿using System.Globalization;
+﻿using CultureInfoEditor.Interfaces;
 using System.Windows.Forms;
 
 namespace CultureInfoEditor
 {
     public partial class MainForm : Form
     {
+        CultureInfoInterface ci;
+
         public MainForm()
         {
             InitializeComponent();
@@ -12,8 +14,8 @@ namespace CultureInfoEditor
 
         private void MainForm_Load(object sender, System.EventArgs e)
         {
-            var obj = new CultureInfo("en-US");
-            GeneralProperties.SelectedObject = obj;
+            ci = new CultureInfoInterface();
+            GeneralProperties.SelectedObject = ci;
         }
 
         private void saveToolStripMenuItem_Click(object sender, System.EventArgs e)
