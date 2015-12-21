@@ -40,7 +40,7 @@ namespace CultureInfoEditor.Converters
             object value,
             System.Type destinationType)
         {
-            if (destinationType == typeof(System.String) &&
+            if (destinationType == typeof(string) &&
                  value is T)
             {
                 T so = (T)value;

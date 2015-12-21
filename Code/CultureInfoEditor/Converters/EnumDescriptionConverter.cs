@@ -45,12 +45,12 @@ namespace CultureInfoEditor.Converters
                 object value, Type destType)
             {
                 FieldInfo fi = _enumType.GetField(Enum.GetName(_enumType, value));
-                DescriptionAttribute dna =
-                    (DescriptionAttribute)Attribute.GetCustomAttribute(
-                    fi, typeof(DescriptionAttribute));
+            EnumTextAttribute dna =
+                    (EnumTextAttribute)Attribute.GetCustomAttribute(
+                    fi, typeof(EnumTextAttribute));
 
                 if (dna != null)
-                    return dna.Description;
+                    return dna.EnumText;
                 else
                     return value.ToString();
             }

@@ -15,6 +15,7 @@ namespace CultureInfoEditor
         private void MainForm_Load(object sender, System.EventArgs e)
         {
             ci = new CultureInfoInterface();
+            ci.NumberFormat = new NumberFormatInfoInterface();
             GeneralProperties.SelectedObject = ci;
         }
 
