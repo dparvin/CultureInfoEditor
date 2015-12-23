@@ -95,7 +95,7 @@ namespace CultureInfoEditor.Interfaces
         /// The property is being set and the System.Globalization.NumberFormatInfo object is read-only.
         /// </exception>
         [Description("Gets or sets the format pattern for negative currency values.")]
-        [TypeConverter(typeof(EnumDescriptionConverter))]
+        [TypeConverter(typeof(EnumTextConverter))]
         [DefaultValue(CurrencyNegativePatterns.pcnp)]
         public CurrencyNegativePatterns CurrencyNegativePattern { get; set; }
         /// <summary>
@@ -116,23 +116,9 @@ namespace CultureInfoEditor.Interfaces
         /// object is read-only.
         /// </exception>
         [Description("Gets or sets the format pattern for positive currency values.")]
-        [TypeConverter(typeof(EnumDescriptionConverter))]
+        [TypeConverter(typeof(EnumTextConverter))]
         [DefaultValue(CurrencyPositivePatterns.cn)]
         public CurrencyPositivePatterns CurrencyPositivePattern { get; set; }
-        /// <summary>
-        /// Gets or sets the string to use as the currency symbol.
-        /// </summary>
-        /// <value>
-        /// The string to use as the currency symbol. The default for
-        /// System.Globalization.NumberFormatInfo.InvariantInfo is "¤".
-        /// </value>
-        /// <exception cref="System.ArgumentNullException">
-        /// The property is being set to null.
-        /// </exception>
-        /// <exception cref="System.InvalidOperationException">
-        /// The property is being set and the System.Globalization.NumberFormatInfo object is read-only.
-        /// </exception>
-        public string CurrencySymbol { get; set; }
         /// <summary>
         /// Gets or sets a value that specifies how the graphical user interface
         /// displays the shape of a digit.

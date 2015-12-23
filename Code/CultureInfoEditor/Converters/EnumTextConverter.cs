@@ -6,15 +6,15 @@ using System.Reflection;
 
 namespace CultureInfoEditor.Converters
 {
-    class EnumDescriptionConverter : EnumConverter
+    class EnumTextConverter : EnumConverter
         {
             private Type _enumType;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="EnumDescriptionConverter"/> class.
+        /// Initializes a new instance of the <see cref="EnumTextConverter"/> class.
         /// </summary>
         /// <param name="type">The type.</param>
-        public EnumDescriptionConverter(Type type)
+        public EnumTextConverter(Type type)
                 : base(type)
             {
                 _enumType = type;

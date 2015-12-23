@@ -55,13 +55,15 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\FlagCheckedListBoxItem.cs" />
-    <Compile Include="Converters\EnumDescriptionConverter.cs" />
+    <Compile Include="Converters\EnumTextConverter.cs" />
     <Compile Include="Converters\TypeConverter.cs" />
     <Compile Include="Enums\CultureTypes.cs" />
     <Compile Include="Enums\CurrencyNegativePatterns.cs" />
     <Compile Include="Enums\CurrencyPositivePatterns.cs" />
     <Compile Include="Interfaces\CultureInfoInterface.cs" />
     <Compile Include="Interfaces\NumberFormatInfoInterface.cs" />
+    <Compile Include="Interfaces\RegionInfoInterface.cs" />
+    <Compile Include="Interfaces\TextInfoInterface.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
