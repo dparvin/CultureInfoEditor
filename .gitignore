@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Code/packages/PropertyGridHelpers.2016.4.25.5/tools/uninstall.ps1
