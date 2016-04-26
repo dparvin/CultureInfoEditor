@@ -3,3 +3,30 @@
 ################################################################################
 
 /Code/packages/PropertyGridHelpers.2016.4.25.5/tools/uninstall.ps1
+/Code/packages/PropertyGridHelpers.2016.4.25.5/tools/install.ps1
+/Code/packages/PropertyGridHelpers.2016.4.25.5/tools/init.ps1
+/Code/packages/PropertyGridHelpers.2016.4.25.5/PropertyGridHelpers.2016.4.25.5.nupkg
+/Code/packages/PropertyGridHelpers.2016.4.25.5/lib/PropertyGridHelpers.pdb
+/Code/packages/PropertyGridHelpers.2016.4.25.5/lib/PropertyGridHelpers.dll
+/Code/packages/PropertyGridHelpers.2016.4.25.5/lib/lib files.txt
+/Code/packages/PropertyGridHelpers.2016.4.25.5/content/Content.txt
+/Code/CultureInfoEditor/obj/Debug/CultureInfoEditor.pdb
+/Code/CultureInfoEditor/obj/Debug/CultureInfoEditor.MainForm.resources
+/Code/CultureInfoEditor/obj/Debug/CultureInfoEditor.exe
+/Code/CultureInfoEditor/obj/Debug/CultureInfoEditor.csprojResolveAssemblyReference.cache
+/Code/CultureInfoEditor/obj/Debug/CultureInfoEditor.csproj.GenerateResource.Cache
+/Code/CultureInfoEditor/obj/Debug/CultureInfoEditor.csproj.FileListAbsolute.txt
+/Code/CultureInfoEditor/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+/Code/CultureInfoEditor/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+/Code/CultureInfoEditor/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+/Code/CultureInfoEditor/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Code/CultureInfoEditor/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/Code/CultureInfoEditor/bin/Debug/CultureInfoEditor.vshost.exe.config
+/Code/CultureInfoEditor/bin/Debug/CultureInfoEditor.vshost.exe
+/Code/CultureInfoEditor/bin/Debug/CultureInfoEditor.pdb
+/Code/CultureInfoEditor/bin/Debug/CultureInfoEditor.exe.config
+/Code/CultureInfoEditor/bin/Debug/CultureInfoEditor.exe
+/Code/CultureInfoEditor/Content.txt
+/Code/CultureInfoEditor/bin/Debug/PropertyGridHelpers.pdb
+/Code/CultureInfoEditor/bin/Debug/PropertyGridHelpers.dll
+/Code/CultureInfoEditor/bin/Debug/Culture (en-US).xml

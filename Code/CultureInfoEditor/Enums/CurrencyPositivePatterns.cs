@@ -1,4 +1,4 @@
-﻿using CultureInfoEditor.Attributes;
+﻿using PropertyGridHelpers.Attributes;
 
 namespace CultureInfoEditor.Enums
 {

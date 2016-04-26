@@ -1,5 +1,5 @@
 ﻿using CultureInfoEditor.Converters;
-using CultureInfoEditor.UIEditors;
+using PropertyGridHelpers.UIEditors;
 using System;
 using System.ComponentModel;
 using System.Globalization;

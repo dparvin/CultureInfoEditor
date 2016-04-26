@@ -36,6 +36,10 @@
     <StartupObject>CultureInfoEditor.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PropertyGridHelpers, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyGridHelpers.2016.4.25.5\lib\PropertyGridHelpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,13 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\EnumTextAttribute.cs" />
-    <Compile Include="Controls\FlagCheckedListBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Controls\FlagCheckedListBoxItem.cs" />
-    <Compile Include="Converters\EnumTextConverter.cs" />
-    <Compile Include="Converters\TypeConverter.cs" />
     <Compile Include="Enums\CultureTypes.cs" />
     <Compile Include="Enums\CurrencyNegativePatterns.cs" />
     <Compile Include="Enums\CurrencyPositivePatterns.cs" />
@@ -72,7 +69,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UIEditors\FlagEnumEditor.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +81,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,7 +95,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Content.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

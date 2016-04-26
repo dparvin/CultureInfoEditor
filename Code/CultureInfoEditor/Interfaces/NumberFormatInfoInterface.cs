@@ -1,4 +1,4 @@
-﻿using CultureInfoEditor.Converters;
+﻿using PropertyGridHelpers.Converters;
 using CultureInfoEditor.Enums;
 using System.ComponentModel;
 using System.Globalization;
